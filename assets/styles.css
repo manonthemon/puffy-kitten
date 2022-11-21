@@ -1,0 +1,188 @@
+.headings {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 100px;
+    margin-left: 750px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+.pink_letters {
+
+    color: rgb(255, 0, 195);
+
+}
+
+header {
+
+    background-color: aqua;
+    padding: 30px;
+
+}
+
+.article_1 {
+
+    background-color: rgb(255, 0, 195);
+    padding: 30px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.kitty_image {
+    max-width: 30%;
+    height: auto;
+    margin-left: 50px;
+}
+
+img:hover {
+
+    animation: shake 0.5s;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+
+.separator {
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 0, 195);
+}
+
+#Article-2 {
+
+    max-width: 100%;
+    height: auto;
+    background-color: aqua;
+    padding: 20px;
+}
+
+#pic_background {
+
+    background-color: rgb(255, 0, 195);
+    padding-bottom: 30px;
+}
+
+#blue-background {
+
+    background-color: aqua;
+    margin: 0px;
+    padding: 30px;
+    ;
+}
+
+
+
+.heading-2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+h2:hover {
+    color: rgb(255, 0, 195);
+    transition: 0.2s;
+
+}
+
+
+footer {
+    background-color: rgb(255, 0, 195);
+    padding: 10px;
+    padding-left: 40%;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-kerning: auto;
+    font-size: 50px;
+}
+
+.zoom {
+   
+    background-color: rgb(255, 0, 195);
+    transition: transform .2s; 
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    
+  transform: matrix(1.2, 0.2, -1, 0.55, 0, 20);
+
+}
+
+.footerbck {
+
+    background-color: aqua;
+}
